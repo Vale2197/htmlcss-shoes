@@ -32,6 +32,7 @@ header .navBar li {
     width: 40px;
     height: 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 /* SCARPE BLU */
@@ -56,3 +57,49 @@ header .navBar li {
     width: 500px;
 }
 /* / SCARPE BLU */
+
+/* SCARPE BIANCHE */
+#scarpeBianche {
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#scarpeBianche .scarpeETesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+#scarpeBianche .scarpeETesto img {
+    width: 500px;
+}
+/* / SCARPE BIANCHE */
+
+/* SCARPE AZZURRE */
+#scarpeAzzurre {
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#scarpeAzzurre .scarpeETesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+
+#scarpeAzzurre .scarpeETesto img {
+    width: 500px;
+}
+/* / SCARPE AZZURRE */
