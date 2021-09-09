@@ -4,3 +4,29 @@
     box-sizing: border-box;
 }
 
+#mainContainer {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* SCARPE BLU */
+#scarpeBlu {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#scarpeBlu .scarpeETesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+#scarpeBlu .scarpeETesto img {
+    width: 500px;
+}
+/* / SCARPE BLU */
